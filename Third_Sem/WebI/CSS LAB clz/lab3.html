@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .red p:first-child{
+            color:red;
+        }
+        
+        .green>p{
+            color:green;
+        }
+        .des .purple{
+            color:purple;
+        }
+    </style>
+</head>
+<body>
+    <!-- Lab of Combinator -->
+    <div class="red">
+        <p class="pp">This is red</p>
+        <div>
+            <p>This is  red</p>
+            <p>This is not red</p>
+        </div>
+    </div>
+    <div class="green">
+        <p>We are green</p>
+        <p>We are green</p>
+        <p>We are green</p>
+    </div> 
+    <div class="des">
+        <p class="purple">This is Purple</p>
+    </div>
+    <p class="purple">This class is purple but text is not</p>
+</body>
+</html>

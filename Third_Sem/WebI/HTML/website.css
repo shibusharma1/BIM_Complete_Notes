@@ -1,0 +1,44 @@
+*{
+ margin: 5px;
+ padding: 5px;
+   
+ }
+ span 
+ {
+   margin: 0;
+   padding: 0;
+    display: inline-block;
+    float: right;
+
+ }
+ h2
+ {
+    color: rgb(34, 179, 34);
+ }
+ button
+ {
+    background-color: rgb(34, 179, 34);
+    width: fit-content;
+    border-radius: 20%;
+    color: aliceblue;
+    
+ }
+.left1,.middle1,.right1
+{
+display: inline-block;
+}
+.middle,footer
+{
+   text-align: center;
+}
+header,footer
+{
+   
+   
+   background-color: rgb(67, 197, 67);
+   
+}
+a[href*="form"],h4
+{
+  color:rgb(34, 179, 34);
+}

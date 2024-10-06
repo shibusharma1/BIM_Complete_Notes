@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /*selects only direct <li> children of <ul>*/
+        .list > li {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+     <ul class = "list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>
+            <ul type="disc">
+                <li>Nested Item 1</li>
+                <li>Nested Item 2</li>
+            </ul>
+        </li>
+     </ul>
+     <ul type="disc">
+        <li>Nested Item 1</li>
+        <li>Nested Item 2</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Address</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        table tr td{
+            margin: 3px;
+            padding: 3px;
+        }
+      .cols_2 input{
+            width:330px;
+        } 
+        .button input{
+            width: 685px;
+            color: whitesmoke;
+            background-color: darkblue;
+        }
+        table{
+            background-color: antiquewhite;
+        }
+        th{
+            /* margin-top: 12px; */
+            padding-top: 12px;
+            text-align: left;
+        }
+    </style>
+   
+
+</head>
+<body>
+    <table>
+        <form action="login.php">
+            <tr>
+            <th colspan="2" >Billing Address</th>
+            <th colspan="2">Payments</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <i class="fa-solid fa-user-large"></i> Full Name
+            </td>
+            <td colspan="2"> Accepted Cards</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cols_2"><input type="text" placeholder="John M. Doe"></td>
+            <td colspan="2">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-discover"></i>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" >
+                <i class="fa-solid fa-envelope"></i> Email
+            </td>
+            <td colspan="2">Name on Card</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cols_2">
+                <input type="email" placeholder="john@example.com">
+            </td>
+            <td colspan="2" class="cols_2">
+                <input type="text" placeholder="John More doe">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <i class="fa-regular fa-address-card"></i> Address
+            </td>
+            <td colspan="2">Credit card number</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cols_2">
+                <input type="text" placeholder="542 W  15th Street">
+            </td>
+            <td colspan="2" class="cols_2">
+                <input type="number" placeholder="1111-2222-3333-4444">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" ><i class="fa-solid fa-building-columns"></i>
+            City</td>
+            <td colspan="2"> Exp. Month</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cols_2">
+                <input type="text" placeholder="New York">
+            </td>
+               <td colspan="2" class="cols_2">
+                 <input type="text" placeholder="September">          
+            </td>
+        </tr>
+        <tr>
+            <td > State</td>
+            <td >Zip</td>
+            <td>Exp Year</td>
+            <td >CVV</td>
+        </tr>
+        <tr>
+            <td >
+                <input type="text" placeholder="NY">
+            </td> 
+            <td >
+                <input type="number" placeholder="10001">
+            </td>
+            <td >
+                <input type="number" placeholder="2016">
+            </td>
+            <td >
+                <input type="number" placeholder="352">
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="checkbox" required>Shipping address same as Billing
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" class="button">
+                <input type="submit" value="Continue to checkout">
+            </td>
+        </tr>
+        </form>
+    </table>
+    
+</body>
+</html>

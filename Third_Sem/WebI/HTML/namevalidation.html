@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <script>
+        function validateForm()
+        { 
+            event.preventDefault();
+            // this.prevent
+            var name=document.myForm.name.value;
+            var password=document.myForm.password.value;
+            //console(name+" "+password);
+            // console.log(name+password);
+            var errorCount= 0;
+            var errorMessage= [];
+            document.getElementById("name_error").innerHTML="";
+            document.getElementById("password_error").innerHTML="";
+            if(name.trim()==''){
+                //altert("name cannot be blank");
+            // console.log("Name can't be blank");
+            //return false
+            errorCount +=1;
+            errorMessage.push("Name can't be blank");
+            document.getElementById("name_error").innerHTML="Name can't be blank";
+        }
+        if(password.length<6)
+        {
+            //alert("password must be atleast 6 character long");
+            // console.log("password must be atleast 6 character long");
+            //return false
+            errorCount+=1;
+            errorMessage.push("password must be atleast 6 character long");
+            document.getElementById("password_error").innerHTML="password must be atleast 6 character long";
+        }
+        console.clear();
+        if(errorCount>0)
+        {
+            for(msg of errorMessage){
+                console.log(msg);
+            }
+            return false;
+        }
+        // function displayMessage(item)
+        // {
+        //     console.log(item);
+        // }
+
+        }
+        
+    </script>
+</head>
+<body>
+    
+    <form name="myForm" method="post" action="abc.php" onsubmit="return validateForm(this)">
+   <pre> Name:     <input type="text" name="name"/>
+    <span id="name_error" style="color: red;"></span>
+    <br/> Password: <input type="password" name="password"/>
+    <span id="password_error" style="color:red"></span><br/></pre>
+    <input type="submit" value="Register"/>
+    </form>
+</body>
+</html>

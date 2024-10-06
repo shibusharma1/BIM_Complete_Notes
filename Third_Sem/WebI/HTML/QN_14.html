@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested table</title>
+</head>
+<body>
+    <table border="1px">
+        <tr>
+            <td colspan="2" class="cols2">A</td>
+            <td colspan="2" class="cols2">
+            <table border="1px">
+                <tr>
+                    <td colspan="2" class="cols2">B</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="cols2">C</td>
+                </tr>
+            </table>
+        </td>
+        <td colspan="2" class="cols2">D</td>
+</tr>
+</table>
+</body>
+</html>

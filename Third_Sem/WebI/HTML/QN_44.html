@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Form</title>
+    <style>
+        *{
+            margin: 1px;
+            padding: 1px;
+            box-sizing: border-box;
+        }
+        .main{
+            border: 1px solid black;
+            border-right: none;
+            display: flex;
+            /* align-items: center; */
+            /* justify-content: center; */
+            flex-wrap:wrap;
+            height: 310px;
+            width:530px;
+            box-sizing:border-box; 
+            background-color:antiquewhite;
+        }
+        .form1{
+            display: flex;
+            padding-right: 10px;
+        }
+        form2{
+            display: flex;
+            padding-right: 10px ;
+        }
+        .button{
+            width: 530px;
+            border-top: 1px solid black;
+            text-align: center;
+            padding: 5px;           
+        }
+        .submit_1{
+            color: white;
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="form1">
+        <div action="">
+          <input type="text" placeholder="Name">  
+          <br>
+          <input type="email" placeholder="Email"> 
+          <br> 
+          <input type="number" placeholder="Phone"> 
+          <br>
+          <textarea rows="10 " >Special notes, contents or requirements</textarea>
+          
+        </div>
+        <div class="form2">
+        <br>
+          <strong>What is  the best way to  reach you?</strong>
+          <br/>
+          <input type="radio" name="ways">Phone
+          <br/>
+          <input type="radio" name="ways">Email
+          <br/>
+          <strong> Days of the week yoy are available for Appointment:</strong>
+          <br>
+          <input type="checkbox">
+          Monday
+          <br>
+          <input type="checkbox">
+          Tuesday
+          <br>
+          <input type="checkbox">
+          Wednesday
+          <br>
+          <input type="checkbox">
+          Thursday
+          <br>
+          <input type="checkbox">
+          Friday
+        <br>
+        <strong>Best time of day for your Appointment:</strong>
+        <br>
+        <input type="checkbox">
+        Morning
+        <br>
+        <input type="checkbox">
+        Afternoon
+        <br>
+    </div>
+</div>
+        <div class="button">     
+               <input type="submit" value="Request My Appointment" class="submit_1">
+        </div>
+
+        </form>
+    
+  
+</body>
+</html>

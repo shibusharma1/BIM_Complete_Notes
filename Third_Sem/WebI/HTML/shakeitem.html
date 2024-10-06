@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input
+        {
+            color:rgb(197, 127, 127);
+            height: 100px;
+            float: right;
+            line-height: 500px;
+            text-align: center;
+    
+        }
+        .input:invalid
+        {
+            animation: justshake 0.3s linear infinite alternate;
+            color: red;
+        }
+        @keyframes justshake
+        {
+            25%{
+                transform: translateX(5px);
+            }
+            50%
+            {
+                transform: translateX(-5px);
+
+            }
+            75%
+            {
+                transform: translateX(5px);
+            }
+            100%
+            {
+                transform: translateX-(5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <input class="input"   placeholder="Numbers only"  pattern="\d+" autofocus/>
+
+</body>
+</html>

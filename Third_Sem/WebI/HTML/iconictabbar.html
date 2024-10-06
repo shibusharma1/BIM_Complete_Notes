@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --icon:#bobfd8;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin: 0;
+            background-color:#e3efe8; 
+            border-image: linear-gradient(315deg,#e3efe8 0%, #96a7cf 74%);
+
+        }
+        nav.menu{
+            display: flex;justify-content: space-between;
+            background: #fff0;
+            align-items: flex-end;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <input type="radio" name="nav-item" id="m-home" checked><label for="m-home">Home</label>
+
+        <input type="radio" name="nav-item" id="m-search"><label for="m-search" >Search</label>
+
+        <input type="radio" name="nav-item" id="m-notification"><label for="m-notification" >Notification</label>
+
+        <input type="radio" name="nav-item" id="m-favourite" ><label for="m-favourite">Favourite</label>
+
+        <input type="radio" name="nav-item" id="m-profile"><label for="m-profile">Profile</label>
+        <div class="selector"></div>
+    </nav>
+</body>
+</html>

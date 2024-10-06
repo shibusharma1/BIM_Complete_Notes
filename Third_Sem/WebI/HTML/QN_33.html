@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        th{
+            text-align: left;
+        }
+        table,tr,td{
+            border: 1px ;
+            border-style:dashed;
+            border-right: none;
+            border-collapse: collapse;
+        }
+        .left_1{
+            padding: 4px;
+            width: 150px;
+            text-align: right;
+        }
+        .sep{
+            text-align: center;
+            
+        }
+        textarea{
+            overflow: scroll;
+            
+        }
+    </style>
+</head>
+<body>
+    <table >
+        <form onsubmit="alert('Do you want to Submit?')" onreset="alert('Do you want to reset?')">
+            <tr>
+                <th colspan="2"> Student Registration Form</Form></th>
+            </tr>
+            <tr>
+                <td class="left_1">First Name</td>
+                <td colspan="2" class="cols2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="left_1">Middle Name</td>
+                <td colspan="2" class="cols2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="left_1">Last Name</td>
+                <td colspan="2" class="cols2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="left_1">Email</td>
+                <td colspan="2" class="cols2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="left_1">Phone No</td>
+                <td colspan="2" class="cols2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="left_1">College Location</td>
+                <td colspan="2" class="cols2"><input type="radio" name="Location">Nepal
+                <input type="radio" name="Location">Abroad</td>
+            </tr>
+            <tr>
+                <td class="left_1">College Name</td>
+                <td colspan="2" class="cols2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="left_1">Degree Studying</td>
+                <td colspan="2" class="cols2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="left_1">Comments</td>
+                <td colspan="2" class="cols2">
+                    <textarea name="none" id="3" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr class="sep">
+                <td colspan="2" class="cols2"> 
+                    <input type="submit" value="submit" >
+                    <input type="reset" value="cancel" >
+                </td>
+            </tr>
+        </form>
+    </table>
+    
+</body>
+</html>

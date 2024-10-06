@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pseudo-test{
+            width: 200px;
+            height: 200px;
+          
+          margin: auto;
+          text-align: center;
+        }
+        .pseudo-test::before{
+            content: "Hello World!! ";
+            background-color: green;
+            height: 200px;
+            width: 200px;
+            display: inline-block;  
+            box-sizing: border-box;
+            border:1px solid black;
+
+        }
+        .pseudo-test::after{
+            content: "Hello World!! ";
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            display: inline-block;   
+            box-sizing: border-box;
+            border:1px solid black; 
+        }
+    </style>
+</head>
+<body>
+    <!-- Pseudo element Selector -->
+    <div class="pseudo-test">Hello</div>
+</body>
+</html>

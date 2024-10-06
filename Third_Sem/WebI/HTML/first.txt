@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>
+Pogo
+</title>
+</head>
+<body>
+<link rel="stylesheet" href="style.css">
+<style>
+#first{
+    background-color:red;
+}
+</style>
+
+<h1 style="color: blue;"> Channel practice </h1>
+<h6> Channel </h6>
+<p>
+This is the channel for kids<br> 
+to entertain
+</p>
+<div id="first">
+first<br>
+<h6>hello</h6>
+</div>
+</body>
+</html>

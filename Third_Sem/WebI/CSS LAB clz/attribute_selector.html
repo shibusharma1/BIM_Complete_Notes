@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a[target]{
+            margin-top: 10px;
+            padding: 10px;
+            background-color: chocolate;
+            color:white;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        img[alt~='Lorem']{
+            /* yesto xa vane lorem ja ja x sb thau ma apply hunxa */
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://facebook.com" style="text-decoration: none; ">Facebook</a>
+    <a href="https://hmro.com" style="text-decoration: none;" target="_blank">Hamro</a>
+    <br>
+    <br>
+   
+
+    <img src="https://picsum.photos/id/237/100/100" alt="Lorem">
+    <img src="https://picsum.photos/id/237/100/100" alt="a Lorem">
+    <img src="https://picsum.photos/id/237/100/100" alt="Lorem a">
+    <img src="https://picsum.photos/id/237/100/100" alt="Lorem fd">
+    <img src="https://picsum.photos/id/237/100/100" alt="Lorem f">
+    <img src="https://picsum.photos/id/237/100/100" alt="Lorem d">
+    <img src="https://picsum.photos/id/237/100/100" alt="Lorem s">
+    <img src="https://picsum.photos/id/237/100/100" alt="Lorem">
+    <img src="https://picsum.photos/id/238/200/300" >    
+</body>
+</html>

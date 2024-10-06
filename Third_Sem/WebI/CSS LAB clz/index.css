@@ -1,0 +1,15 @@
+/* Universal selector */
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.div1{
+    font-weight: 600;
+    color:blue;
+    background-color: bisque;
+}
+#id1{
+    background-color: yellow;
+    color: blue;
+}

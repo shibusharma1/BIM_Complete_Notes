@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            /* overflow-x: hidden; */
+        }
+        header
+        {   
+        background-color: rgb(222, 203, 191);
+        height: 60px;
+        
+        }
+        header img
+        {
+            box-sizing: border-box;
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            border:4px solid chocolate;
+        }
+        .Namecoffee
+        {
+            color: black;
+            font-style: oblique;
+            position: absolute;
+            top:15px;
+            left: 80px;
+            font-size: x-large;
+        }
+        a[href]
+        {
+            
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+            /* border: 2px solid black; */
+            border-radius: 3px;
+            
+        }
+        header nav{
+            justify-content: space-between;
+            position: absolute;
+            top:20px;
+            left: 400px;
+            justify-content: space-between;
+
+        }
+        input[type="text"]
+        {
+            padding: 3px;
+        
+            border-radius: 30px;
+            position: absolute;
+            left:600px;
+            box-sizing: border-box;
+            border-radius: 2px solid black;
+            background-color: white;
+            background-image:url("https://assets.stickpng.com/images/585e4ae1cb11b227491c3393.png");
+            
+            background-repeat: no-repeat;
+
+        }
+        .container
+        {
+            background-color: rgb(46, 32, 11);
+            height:500px;
+
+
+        }
+      
+       .col1
+       {
+        position: absolute;
+        top: 1400px;
+        mix-blend-mode: darken;
+        width:31%
+        
+        
+       }
+       .col2
+       {
+        width: 31%;
+        position: absolute;
+        top:1400px;
+        left: 350px;
+       }
+       .col3
+       {
+        width: 31%;
+        position: absolute;
+        top: 1400px;
+        left:900px;
+       }
+        
+
+       
+       .left1 
+       {
+        padding: 5px;
+        height: 300px;
+        width: 60%;
+        float: left;
+       }
+       .right1 
+       {
+        padding: 5px;
+        float: right;
+        height: 300px;
+        width: 38%;
+       }
+       .left2{
+        padding: 5px;
+        float:left;
+        height:300px
+        
+
+       }
+       .right2
+       {
+        padding: 5px;
+        float:right;
+        height: 300px;
+        width: 60%;
+       }
+       h2{
+        text-align: center;
+       }
+
+       .boxes
+       {
+        visibility:visible;
+        height: 280px;
+        background-color: rgb(168, 121, 46);
+       }
+
+       a:link
+       {
+        color:black;
+       }
+       a:visited{
+        color: white;
+       }
+       a:hover
+       {
+        color: rgb(46, 32, 11);
+        font-size: x-large;
+       }
+       a:active
+       {
+        color:rgb(168, 121, 46);
+       }
+       .col1 col2
+       {
+        color: black; 
+        font-size: large;
+        
+       }
+    .socials ul {
+    display: flex;
+    background-color: aquamarine;
+
+   
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+    
+}
+header input[type="text"]:hover
+{
+    font-size: larger;
+    border: 2px solid blue;
+}
+
+footer{
+    background-color: green;
+}
+       
+    </style>
+</head>
+<body>
+ <header>
+    
+        <img src="https://w7.pngwing.com/pngs/650/874/png-transparent-coffee-cafe-tea-logo-creative-coffee-icon-design-coffee-logo-food-cafe-camera-icon-thumbnail.png" width="50px" alt="coffee logo" title="Logo"/>
+        <p class="Namecoffee">COFFEE</p>
+        <nav>
+        <a href="index1.html" target="_blank">Home</a>
+        <!-- <a href="#">Shops</a> -->
+        <a href="location.html">location</a>
+        <a href="#">About us</a>
+        <a href="Login.html">Login</a>
+        <input type="text" placeholder="   Search..."/>
+        </nav>   
+ </header>
+<div class="container">
+    Slider plugin
+</div>
+<div class="boxes">
+    <div class="left1">
+        <h2>cappuccino</h2>
+        A cappuccino, an Italian classic, combines a double shot of espresso with velvety steamed milk and a luxurious milk foam. The rich espresso's boldness merges harmoniously with the creamy sweetness of the milk, creating a perfectly balanced flavor profile. Topped with a cloud-like foam, each sip offers a delightful textural experience. A beloved choice for coffee enthusiasts, the cappuccino is cherished for its versatility, welcoming variations like non-dairy milk or flavored syrups. Whether sipped during morning routines or as an afternoon indulgence, the cappuccino remains an emblem of coffee craftsmanship, uniting people in their shared love for this timeless, artful coffee creation
+    </div>
+    <div class="right1">
+        <img src="data:image/jpeg;base64,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" alt="cappuccino" width="300px">
+    </div>
+    <div class="left2">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRUYGBgRERgYGRgYGBESEREYGBgZGRgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QGhISGjQhISQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIARMAtwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAECAwUGB//EADoQAAIBAgMGAwUGBgIDAAAAAAECAAMRBBIhBQYxQVFhInGBEzKRobFCUmKCwdEUI3KS4fAzQwdE8f/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACQRAQEAAgICAgICAwAAAAAAAAABAhESMQMhQVETMmGBBBQi/9oADAMBAAIRAxEAPwD2ESQkRJCA8eNHgKKKKBTWlSy2sZSpgTiivGgPFFGgPeK8jeK8CV4xMjeK0B7xrx7SJgPeNeQZ5UzwLy0YGUB5YrQLLxSIaPALEkJFZIQJCKKKAoxMRMBxWLA0i3QnXeRSCUHLamFiZmW61ZpYI8YR5pk8aPGgMZEyRkTAjHBijQEWkWaOTK2MCt2lLNJ1DB3eBYKkl7WBNUkDVgaHt4pnCpFA6cGTBnOVNr2Gl5CltZ24KZjnj9tcMnTFwOcqfEAc5y2KrV2Ph0hGFRytnNzJfJPhZh9tKrtAG4B1mScSS+sJXC6wTE4fKbmc8ssq3JI2KPCEKZm4GuCLTRUzpgxktUx7ysGSBnRhOKRvGzQJRjI5os0B7RERs0a8CLSlzLmErdJQM5gtWFukqZIGe5lZaEVkgjQqYeKVCKNI1jSW2sVILy5Sq5ItJ4ekeZnnmLtakK+suZrDSQXCi94R7KamLNyUpVgOPzEEATU9lImhea4pyZuzabDjNhDK1o2loEuOOmbdrA0fPAWxyE2U5yOSAvbzI0HrJLUYi9gvmbn4D95blJ8mqKZ5DPKcjNwcf2/5khQPNj8FH6ScoaqzNHDSo0G5OfUKZS61QNCjdiGp/PWOUONGZpJTM44p11ek4txKFXA9Br8pPDbRpOcquub7hOVx+U6yzKU1WhGIjBo8qKnSUvThZEgyyjNqpAayTXq04FVSUZZa0ePXpxQNxaMvRJJVk7TnpdmCyQWKPeXSGyxWjO4AJJAABJJ0AA1JJ5CcVicXU2iSlJ2pYRWys63WtjLcQp+xT+Zi2SLPbWxW8QdzRwie3qIbO9yuFoH8bgG7fhW58pdhtiO9nxNVqrccgvTwqeVMHxfnLQ7ZmzUooqU0CIo0UcPM9T3hVSplExd3teklVUFlAAHIWA+AgtU5jprKGxJJt3mlhk0mePJd8Q9Cg44wkCXSDCbxxk6ZuVqHaK0TX5Ri00GKQbHbNp1ly1UVxxFx4lPVWGoPcQsGOBM6i7rnX2dicMM2GqGsg/8AXrtdgOYp1/eB7PmHcQvZG3qeILIMyVafv0agyVqfe3Bl6MpIPWbIExd4t3UxKhlY0q9LWlXTSpSPG34lNtVOhEsZa94py+7+3nao2DxQVMVRF/DpTxKcqlO/WxuOVjOmWaCZIPUowqK0ox6+Fims1O8UbERHMQjiZVER7SYEcWHGVHn2/wDtJ6tSns2ida7KaxBsQnHJ6qCx7WHOddsvBLTpqiiwUcNALnUm3mZ5vubV/idqV678RTdwDxXM4QDzCjLPV8Ona3QTnfeTU62nygdcEgw9lg9ZOMuUJWXTSxmxQOkzsoB/3jDaTzOPoyF3kWjIY5nRlW0rcyx5WwkqoI+svEFYawlDJCrBJiQEks0jnt8d3f4lFqUyUxGGOem6+/oQWTuCB8bS7d7ant6YLEF08L5dASLjMByBsdORBE3hOPo4ZcPiHdDYOxVlJYqczAgi50OltLDtJllxsWTbqLxXlNKuGFwOZGtxYg2IhCODxAmkRvFJtS5j94oAoaTDSm8cGZ21peGkap8Lf0n6SsNHzy7R5huvhzhtqFGPhriqq9yStUKfxABgRPV1Np5HvHh8U+0KPs3UMaqZGfwU2enmsC33iAUI4t4Z6qrG9mFiPeHEA9jzE537iz6EM0HrQgDSVOLzd9xAppG95agk8siGEkml2vUyYMoLm1hEsu2Vl7yLRZ7StmvFVHnLlkFWWKIgmssWVrLBLESE4nE4pXqDwZszu2W+UOuZVSzebIZs727WXD0D48jVfArWvkzaF/S+ncgc5xG71GoUTEVM386vRSlm4tTpn2ruByvlOvO/SxOM5trG/DuqIFNHd2CIXLZnZQqhiOelhfr1lmGyV/Ejl06pmCN+fg3oZx2LwtXH4Kph6TXb2lM+NiqFFYE2PIXB0HQQ/c/dXE4JCn8VZXJb2a01dEY8WDt4r6eXaZ8WVsmp6XLH326LF4Z6YulQoOhKlfQ3B+N4o9PZihbN/MYm5Zs3tD+YHh2inZgwMkGlGaOHnOVtcTK7xwYwWVHN7bwquz02JBDq6MCQVf3lYepIlWP3iq4f2VZlLIiOuJZjTzvlyZXGW3j1a2gDBTaxspK3mUo9OoOalD3sb/r8oNUCuhvqrrY8wRzVhzHac5nMbZW+PKSx1OA2vSror0nDo4HiHfkRyMJzTxytsjFYF2qYJtHbMUJup11GXgRb10m9sT/yOhOTFIaLjiTc0z+q+uneLne57jPH4vp6ExvGVxMuntAVLMjqykaFSGB+EuWt4rdh8Zy/2Jvpv8daKmIvBlrXGkdLtoZuebfScPtd7QSSwCmMrEHrNKjL487l36MsZDqJYBK7a3jVcSqDxEDzNp05SdsaECZu3duUsJTNSq3ZVHvu3QD9eU57H76KXNHCIa9XhdRmpqe5EhgNzKmJcVtoPnPEU1JCDse3aXlvpNMrYeHrbTrPWrL/ACGYBs1zTyIfBSprpzJZnPHgLcZ0u37PiKVBB7lB2FreAuRTB7eE1J0y01poFRQqqLKoAAHpMynglFZ65N3qIiDoipc6dyWYxffonr2uwGDSkiogsFAHc2FrmExgY81JpEhFGEUoyCJJFlKmXrOMbq1RJ3lamIze0Z28lPNRvzpuD6cD+k5FMUyajhzHIzusZTz03Xqh+Wv6TzqrwPaeXzftt38V9abFDGo4y9eR4/5gGP2fTfRlB8wDaZjPb/dYTSxzc9frOMy06WbAru0EbPQqvRYc0Y5fVYfQxG1Et/NpVgB/2Lkc+bCH0KqtztfrNGgh5G/zm+e+/bPCfHoFQ3mxq2D4EN3RwR56iaFHe2pbxYKsD2yEfG8JRTzAhlNOwlmWP0lwv2yjvPUbUYKt6lBeW0Nu4xjZcGR0zOPnpNpE7CFU0M1Mp8M3GsNaO0Kt7vSoKegapU9OAllPdGkxzYirVrseIZyqH8izoVTqZIOo538prnIzxqvZ+z6dJctKmiKOSgKJoBgPOCe36afWJWl/LOocL8nxD3lQjVDrGWdvH1tzy+lojgxhHWdGTsYpUWvFAy0loaUqY+ecY2uzRi8rzSDNKCEqTz/H08ruOjGduGnI7cW1Z/xa/Ef/AGcPLNyV08d1WDVjI0nXWUK081d2hReaFCpaZKGG0WhWzRxLfePxh1HFv1+kxaTQyk0zuxdRsLjH+98hLkxTH7RmWjS9Gjlfs1GmlTvLkqTORoVTk2WD0aXKZRREIAnfCOWSDcY6mSK/WOthPdhNYvNl2cDrK3a8dmlTN/k8hNskW/39I8ZVYnw6G2l/sjqe5ikGP7SL2oHGCmpIM15y02OFYRzUmemkg7nrKCcTigilidFBJnn+A22cS1VjwSrlU9VI0+YMu3+2waVHIreKpp5CcZuXiirunJ1DeqH9mMmWO8bVxuso7OvBysJq6i8qE8OXb1RNIZS5QRIdQXSRRlIwpILThiiZURTMIQQenCqciiKYhdIQRIdQERKMoiESmnLuAv0BnpwccmfhceHq1KYH/FlBPdlzH6iFOZzG7200OIrKfequWA620+gE6Kq4zWJ1+6OPrPT48vTz5T2kGvw4df2k1p3Nhy+A7nqZZTp+kvQW4TrGTLTA/wB4xScUo4ZmEqNYCB1K9oI+IJnJ0adXFTM2ltIojMOIGkr9rMHeHH+zpOebDKPMzUSuD2nj3rOWdr2Jt2jbJxGSsjdHsfI6H6wImSXTXpNWbmmZdXb1egwZNJUBMzd7FnRD9oadQek2HTWfNzezElWaNAaQSkIXSnPbehFOHLAgIdS4RVXIIXTEGQQulM7FyLD6AglIQ2iJrHtMhdMSWIayOeiH6Rkl3Y856sHDJxext2Xau+JclFZcqIPete5J6TrsNgkS+VdTxJ1YnuZeJMCejHGRx2SJpeICTPCRAnSdM3soo8UqPJ6nGVGPXNjBmec3VJ2AnC754vM60xwQXPmZ2haecbXR2rOxBOdza2t+0uPbOTMkgL6CbOy92sRWNwhVRxY8PTrOgG7IpAEDMevOXLORJjsXs7DM9OniLZSoVKgHJl0VvUWmwdZzVLaDYZibZqdTwunLsfObdDEBlzoc6DiRrUp9nXp3ni8mFv8A1j/cd8Mpj6ounpC6cHp2IuDcHmOEIQWnkvp6ILQXhtKA0oZTk5LoUghdKCpCqcWroZSEKQwRJKvjEprmdgPqfIc5vD2xk0lcAXPASOGxGck8hpOF2lvWXf2dMXJNgvEkngW/adrsfDFKaqTdiLsepPGezx4vPlWisuRZUiy9BPVI42maRtJGMZpk0UUUDzfaOBtfSc7V0nomKw4YGcltfBWubTOWPy3jkxhUnO7Hy/xSq4upq6g8DNhmsZThdnB66OujA3NudphXrFLBUygCKAOggeM2SpFrSrA4y3A8PlNqlXVxrxmpqs3ceabb3eIzWFweU4autbCvmQsBfRhcW7Ge+Yqkp0InP7T3dSoDYDXtoZm4tSvKsNvCxNwcjc7e4/cpw+FpuYbeVtM6Bu6MAf7W/eVbY3FdSWp6fh4qfLpOZxGzqtI2dHHcXZflOefjxy7jeOdnVeg0N46B4ll/qRrfEQ+jvBhj/wByept9Z5dQxK/eP0hqVUv7/wA5wy/x8f5dJ5cnp6bw4Yf9q+l2+ki+9lADwh3PZCo+LWnnJxSge/8AOPT2gvBQzE8gCZj8GM+6v5Mnb197ajcFFJOptUqHsBwB+M5/aG2qlU5VJ1Nr6mo/LVuNuwsJbs7dnGYkr4DTT7z3X4Lxnou7O5lHDWdvHU+8w0H9I5Ttj471JpzyznzdsrcrdRktXrLZreBD9nue871BaWKsllnoxwmM9OWWVqSy8CVU5bOkZRMYxzI3lQoorxQMd0mVtLBZlM2LSL0xKPKto4coxBHOW7rgHEoDzBnabR2EKikc+U5PCYF8NiUziwzWB5G46zlcbG97dVjtiHNnQkN0+y3mJVh8QwOVhlYcuR8prJiiOcjXyOPEvrwIl4/SbQoYkHR9bcIetMEXGswKi5DxuOR5+sNw2KK84VothgeIgtbZCNxUfCHYbFK/Yw0U7wm3HYnc3DOfFSQ/lEzn/wDHuFz/APELW4DMPoZ6ItCL2OvDlLpeTiMPuHgxwoL+bMfrOg2bu7Qo+4iA9lAm8KcfKBJxS5B0ogcBJhZbcSBea0hwslaUtUkTUgEraTWCI8uV4RJjI3iLRryh4o14oGbEBJRGAgBKMThUcWZQR85cPOMYGTX2a66o1x91v0MEaqV0dSp78PjOgLSp6YYWIvAwKr5hBA5XhqOn7TVxeyQdUJQ9uHwmc+Eqr7yZx1Tj/b+0liyjMLiL6jl8Z0WzcRmFjOOout9DYjlwYek2sBj8h8Qv5WBkk0WupzyDPMg7XvwQ+pEKo18/MCa2gtXvGLRU6PcywqBykFV5U72llSpBmeFM1RokJPExlUntLUAECSX5S1ZXnjgwiy8V5DNFmlFoMUrDRQBrSJNpIAcBJWkFdorSbRisChlkQISEkcsCgiOFl+SPklAVfAU6i2ZR5/aHrxgFbYzr/wAT3H3X1+DcRNvJFkgcy1R00qIU/F71P+4cPWaGErg2IN+41E1GSAPshC2ZAUbqhy38xwMml22sNUusapVg+GpMosWv6AGEBBCKDc9olQCWmRJgRJkS8TNIsYVNXkhUg5MQMmwUHiDwcNJh42Ls0Uo9rFLtE14DyiaKKTH9Yt7qcUUUqHkGiigKPyiiiiRjR4oCkhFFAeRiilEWlZiimaqDSDRRSBhGMUUKiJER4oQooooH/9k=" alt="latte" width="300px">
+    </div>
+    <div class="right2">
+        <h2>Latte</h2>
+        <p>A latte is a delightful coffee beverage originating from Italy, blending a double shot of espresso with steamed milk and a creamy milk froth on top. The velvety texture of the milk complements the rich espresso, creating a harmonious balance of bitter and sweet notes. Each sip offers a multi-sensory experience, as the froth caresses the lips and the flavors dance on the palate. Whether cherished in the morning or as an afternoon indulgence, the latte represents the artistry of coffee culture, uniting people over a shared appreciation for this beloved classic.</p>   
+    </div>
+</div >  
+
+<footer >
+    
+    <div class="col1">
+    <img src="logo.jpg" title="logo" alt="Logo" height="300px" width="300px"/>
+
+
+</div>
+<div class="col2">
+    <h1>coffee</h1>
+    <p>Coffee originates from the roasted seeds of the Coffea plant. Its enchanting aroma and invigorating taste have woven themselves into the fabric of cultures worldwide. A diverse range of coffee brewing methods, such as espresso, pour-over, or French press, unlocks distinct flavors and aromas from the beans. Each cup presents a symphony of complexities, from the robust bitterness to the nuanced sweetness, captivating the senses. Coffee transcends mere consumption; it fosters social bonds and fuels creativity. Whether savored in cozy cafes or cherished as a morning ritual, coffee continues to be an irreplaceable companion, comforting and inspiring in equal measure.</p>
+</div>
+<div class="col3">
+    <h2>Our Social Media sites</h2>
+    <ul class="socials">
+        <li><a href="#">
+          <img src="facebooklogo.jpg" alt="facebook" title="facebook" width="80px"/>
+        </a></li>
+        <li><a href="#">
+          <img src="twitterlogo.jpg" alt="twitter" title="Twitter" width="80px"/>
+        </a></li>
+        <li><a href="#">
+          <img src="instagramlogo.avif" alt="instagramlogo" title="instagramlogo" width="80px"/>
+
+        </a></li>
+        <li><a href="#">
+          <img src="Youtubelogo.avif"
+          alt="Youtube logo" title="Youtube" width="80px"/>
+
+        </a></li>
+        <li><a href="#"> 
+          <img src="linkedinlogo.png" alt="linkedinlogo" title="linkedinlogo" width="80px"/>
+
+        </i></a></li>
+    </ul>
+</div>  
+</div>
+</footer>
+</body>
+</html>
