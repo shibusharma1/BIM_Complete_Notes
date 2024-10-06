@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    // for(let i = 0;i < 10; ){
+        
+    //     console.log("Hello World "+i);
+    // }
+    let i = 0;
+    //  
+    do{
+        console.log("Hello World");
+        i++;
+
+    }while(i<10);
+    let animal={
+        name : "Zebra",
+        leg:4
+    };
+   console.log(animal.name);//using dot
+   console.log(animal['name']);//using brackets
+    //for in loop returns the index 
+    for(let key in animal){
+        console.log(key,animal[key]);//here we cannot use dot operator because in dot notation we need name;
+
+    }
+    //Arrays
+    let names=["Rahul","Neha","Aman","Rishabh"];
+    for(let index in names){
+        console.log(index,names[index]);//num doesn't works with dot notation
+    }
+    //for... of loop it returns the value or data
+    for(let name of names)
+    {
+        console.log(name);
+
+    }
+    
+    
+   </script> 
+</body>
+</html>
+
